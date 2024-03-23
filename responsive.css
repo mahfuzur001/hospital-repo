@@ -1,0 +1,267 @@
+
+@media (min-width:320px){
+    .head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .header .list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+       
+        }
+    .store{
+        margin-top:  100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .roof{
+            text-align: center;  
+        }
+        .store img{
+            margin: 2px;
+            height: 300px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .sandeep{
+           
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around; 
+        }
+        .company{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+} 
+
+@media (min-width:576px){
+    .header .list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin: 20px;
+        }
+    
+    .head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+
+        .store{
+            margin-top:  100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+        .store img{
+            margin: 2px;
+            height: 300px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .sandeep{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around; 
+        }
+        .roof{
+            text-align: center;  
+        }
+        
+.help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+        .company{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        
+        /* .header .list ul li a{
+            /* margin: 5px; */
+        }
+        .footer h1{
+            text-align: center;
+            margin: 5px;
+        } */
+
+}
+
+
+@media (min-width:768px){
+    .header .list ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin: 20px;
+        }
+
+    .head{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 5px;
+    }
+    .header{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .store{
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+    .roof{
+        text-align: right;
+        background-position: center;
+        
+    }
+    .help{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .sandeep{
+       
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .company{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+}
+
+
+@media(min-width:992px){
+    .head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 5px;
+    }
+    .header .list ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+       
+        }
+    .header{
+    
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+
+    .store{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;   
+    }   
+    .sandeep{
+       
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .help{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .company{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    } 
+}
+@media(min-width:1200px){
+    .head{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 5px;
+    }
+    .header .list ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin: 20px;
+        }
+    /* .header{
+    
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+    } */
+
+    .store{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;   
+    }  
+    .help{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .company{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }   
+}
